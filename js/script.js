@@ -64,9 +64,9 @@ function createBox ( box, pos ) {
         bright = 10 + 40 / half * ( maxParts - pos );
     }
     // Followers 
-    var baseHue = 320; // Rosa pastel
+    var baseHue = 280; // Morado
     var hueVariation = 30; // Más variación para diferentes tipos de rosa
-    var saturation = 70 + (20 * pos / maxParts); // De pastel a fuerte
+    var saturation = 75 + (20 * pos / maxParts); // De pastel a fuerte
     var color = 'hsl(' + (baseHue + (hueVariation * pos / maxParts)) + ', ' + saturation + '%, ' + bright + '%)';
     
     
